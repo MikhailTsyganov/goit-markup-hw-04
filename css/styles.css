@@ -459,10 +459,22 @@ body {
 /* footer */
 
 .footer {
-  padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--bg-hero-footer);
+}
+
+.footer .footer-flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer .main-info {
+  padding-top: 60px;
+}
+
+.footer .join-us {
+  padding-top: 72px;
 }
 
 .footer .logo {
@@ -480,6 +492,7 @@ body {
 
 .footer .address {
   margin-top: 20px;
+  margin-right: 70px;
 
   color: var(--primary-white-color);
   font-style: normal;
@@ -511,6 +524,43 @@ body {
   margin-top: 0;
   margin-bottom: 9px;
 }
+
+.footer .join {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer .social {
+  display: flex;
+}
+
+.join-us .social-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.join-us .social-icon:last-child {
+  margin-right: 0;
+}
+
+.join-us .social-icon:hover {
+  background-color: var(--accent);
+}
+
+.join-us .icon {
+  fill: var(--primary-white-color);
+}
+
 /* Button */
 
 .button {
