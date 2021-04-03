@@ -125,11 +125,31 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent);
+}
+
+.contacts .link:hover {
+  fill: var(--accent);
+}
+
+.contacts .envelop-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts .smartphone-icon {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* main */
