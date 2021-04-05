@@ -253,7 +253,9 @@ body {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid transparent;
   border-radius: 4px;
   background-color: var(--second-bg-color);
@@ -353,8 +355,10 @@ body {
 }
 
 .social .link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social .icon {
@@ -384,34 +388,11 @@ body {
   border: 1px solid var(--accent);
 }
 
-.clients .link-1 {
-  display: block;
-  padding: 20px 62px;
-}
-
-.clients .link-2 {
-  display: block;
-  padding: 19px 65px;
-}
-
-.clients .link-3 {
-  display: block;
-  padding: 23px 64px;
-}
-
-.clients .link-4 {
-  display: block;
-  padding: 24px 45px;
-}
-
-.clients .link-5 {
-  display: block;
-  padding: 22px 55px;
-}
-
-.clients .link-6 {
-  display: block;
-  padding: 22px 41px;
+.clients .link {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients .item:last-child {
@@ -426,39 +407,10 @@ body {
   fill: var(--icons-color);
 }
 
-.clients .company-1 {
-  width: 44px;
-  height: 49px;
-}
-
-.clients .company-2 {
-  width: 40px;
-  height: 52px;
-}
-
-.clients .company-3 {
-  width: 41px;
-  height: 42px;
-}
-
-.clients .company-4 {
-  width: 80px;
-  height: 42px;
-}
-
-.clients .company-5 {
-  width: 59px;
-  height: 47px;
-}
-
-.clients .company-6 {
-  width: 88px;
-  height: 45px;
-}
-
 /* footer */
 
 .footer {
+  padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--bg-hero-footer);
@@ -466,15 +418,7 @@ body {
 
 .footer .footer-flex {
   display: flex;
-  align-items: flex-start;
-}
-
-.footer .main-info {
-  padding-top: 60px;
-}
-
-.footer .join-us {
-  padding-top: 72px;
+  align-items: baseline;
 }
 
 .footer .logo {
